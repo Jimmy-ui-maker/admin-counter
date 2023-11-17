@@ -7,7 +7,7 @@ export default function Footer() {
         <div class="footer-top">
           <div class="container">
             <div class="row gy-4">
-              <div class="col-lg-5 col-md-12 footer-info">
+              <div class="col-lg-5 col-md-12 footer-info" data-aos="fade-up" data-aos-delay="200">
                 <a href="#" class="logo d-flex align-items-center">
                   <span>Student Details App</span>
                 </a>
@@ -37,7 +37,7 @@ export default function Footer() {
                 </div>
               </div>
 
-              <div class="col-lg-2 col-6 footer-links">
+              <div class="col-lg-2 col-6 footer-links" data-aos="fade-up" data-aos-delay="300">
                 <h4>Useful Links</h4>
                 <ul>
                   <li>
@@ -62,7 +62,7 @@ export default function Footer() {
                 </ul>
               </div>
 
-              <div class="col-lg-2 col-6 footer-links">
+              <div class="col-lg-2 col-6 footer-links" data-aos="fade-up" data-aos-delay="400">
                 <h4>My Services</h4>
                 <ul>
                   <li>
@@ -88,7 +88,7 @@ export default function Footer() {
                 </ul>
               </div>
 
-              <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+              <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start" data-aos="fade-up" data-aos-delay="500">
                 <h4>Contact Us</h4>
                 <p>
                   Rimi Kamanzou <br />
@@ -105,7 +105,7 @@ export default function Footer() {
             </div>
           </div>
         </div>
-        <div class="container">
+        <div class="container" data-aos="fade-up" data-aos-delay="600">
           <div class="copyright">
             &copy; Copyright
             <strong>

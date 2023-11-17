@@ -8,7 +8,8 @@ export default function page() {
         <div className="container">
           <div className="row content justify-content-center align-items-center">
             <div className="row">
-              <h2>Computer Science Departmental Student Details App</h2>
+              <h2 className=" mt-2 text-center">Computer Science Departmental Student Details App</h2>
+              <hr />
             </div>
             <div className="col-lg-6">
               <img src="/images/features.png" className="img-fluid pt-2" />
@@ -52,14 +53,14 @@ export default function page() {
                   <li>
                     <i className=" bi bi-chevron-right"> </i>
                     store any crime commited by the student, as well good
-                    conduct
+                    conduct.
                   </li>
                 </ul>
               </div>
             </div>
             <div className="col-lg-12">
               <h3 className="fw-bolder">Aims and gold</h3>
-              <p>To be able to achieved all purpose listed above</p>
+              <p>To be able to achieved all purpose listed above.</p>
             </div>
           </div>
         </div>

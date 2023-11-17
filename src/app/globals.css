@@ -164,6 +164,10 @@ body {
   text-transform: uppercase;
 }
 
+.about .content ul li{
+  color: #013289;
+}
+
 .about .content h3 {
   color: #013289;
   font-weight: 500;
@@ -176,23 +180,12 @@ body {
   line-height: 32px;
 }
 
-.about .content ul {
-  list-style: none;
-  padding: 0;
-}
 
-.about .content ul li {
-  padding: 10px 0 0 28px;
-  position: relative;
-  color: #013289;
-}
 
-.about .content ul i {
-  left: 0;
-  top: 7px;
-  position: absolute;
-  font-size: 20px;
-  color: #012970;
+@media (max-width: 768px) {
+  .about .content h2 {
+    font-size: 20px;
+  }
 }
 
 .about .content p {
@@ -230,8 +223,33 @@ body {
   transition: 0.3s;
 }
 
-#about .btn-get-started:hover i {
+#about .btn-about:hover i {
   transform: translateX(5px);
+}
+
+/*--------------------------------------------------------------
+# Faqs Route
+--------------------------------------------------------------*/
+#faqs h1 {
+  margin: 0;
+  font-size: 48px;
+  font-weight: 500;
+  color: #012970;
+}
+
+#faqs h2, p {
+  color: #012970;
+}
+
+#faqs button {
+  background: #0071ff33;
+  font-size: 20px;
+  color: #012970;
+}
+
+#faqs .accordion-body {
+  background: #0073ff3b;
+  color: #012970;
 }
 
 /*
@@ -253,6 +271,34 @@ body {
 #accord .accordion-body {
   background: #0073ff3b;
   color: #012970;
+}
+
+#accord .btn-faqs {
+  margin-top: 30px;
+  line-height: 0;
+  padding: 15px 40px;
+  border-radius: 4px;
+  transition: 0.5s;
+  color: #fff;
+  background: #4154f1;
+  box-shadow: 0px 5px 30px rgba(65, 84, 241, 0.4);
+}
+
+#accord .btn-faqs span {
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+
+#accord .btn-faqs i {
+  margin-left: 5px;
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+#accord .btn-faqs:hover i {
+  transform: translateX(5px);
 }
 
 /*
@@ -277,7 +323,7 @@ body {
 
 @media (max-width: 768px) {
   #levels .card{
-    height: 60vh;
+    height: 57vh;
   }
   #levels .card-img-top {
     width: 100%;
@@ -347,16 +393,7 @@ body {
   font-size: 25px;
 }
 
-#one .c-link {
-  margin-top: 30px;
-  line-height: 0;
-  padding: 15px 40px;
-  border-radius: 4px;
-  transition: 0.5s;
-  color: #fff;
-  background: #4154f1;
-  box-shadow: 0px 5px 30px rgba(65, 84, 241, 0.4);
-}
+
 
 #one .carousel-inner .carousel-item {
   transition-property: opacity;
@@ -425,7 +462,7 @@ body {
   background: #4154f1;
 }
 
-#one .btn-get-started {
+#one .c-link {
   text-decoration: none;
   font-family: "Raleway", sans-serif;
   font-weight: 500;
@@ -438,11 +475,11 @@ body {
   line-height: 1;
   color: #fff;
   animation-delay: 0.8s;
-  background: #013289;
+  background: #4154f1;
 }
 
-#one .btn-get-started:hover {
-  background: #012970;
+#one .c-link:hover {
+  background: #4153f1e7;
 }
 
 @media (max-width: 992px) {
@@ -498,7 +535,7 @@ body {
 
 @media (max-width: 768px) {
   #oneCard .card{
-    height: 50vh;
+    height: 45vh;
   }
   #oneCard .card-img-top {
     width: 100%;
@@ -530,7 +567,7 @@ Contact Section
   background: inherit;
 }
 .contact input {
-  background: transparent;
+  background: #0073ff0f;
 }
 
 .contact button {

@@ -50,11 +50,11 @@ export default function Carousel() {
                       <h3>This is Computer Science Students record</h3>
                     </div>
                     <div className="col-lg-12 col-12 d-flex align-items-center justify-content-around">
-                      <Link className=" text-decoration-none c-link" href="/about">
-                        Learn More
-                      </Link>
-                      <Link className=" text-decoration-none c-link" href="/contact">
-                        Contact Us
+                      <Link
+                        className=" text-decoration-none c-link"
+                        href="/one#oneCard"
+                      >
+                        Get Started
                       </Link>
                     </div>
                   </div>
@@ -81,11 +81,11 @@ export default function Carousel() {
                       </small>
                     </div>
                     <div className="col-lg-12 col-12 d-flex align-items-center justify-content-around">
-                      <Link className=" text-decoration-none c-link" href="/about">
-                        Learn More
-                      </Link>
-                      <Link className=" text-decoration-none c-link" href="/contact">
-                        Contact Us
+                      <Link
+                        className=" text-decoration-none c-link"
+                        href="/one#oneCard"
+                      >
+                        Get Started
                       </Link>
                     </div>
                   </div>
@@ -112,11 +112,11 @@ export default function Carousel() {
                       </small>
                     </div>
                     <div className="col-lg-12 col-12 d-flex align-items-center justify-content-around">
-                      <Link className=" text-decoration-none c-link" href="/about">
-                        Learn More
-                      </Link>
-                      <Link className=" text-decoration-none c-link" href="/contact">
-                        Contact Us
+                      <Link
+                        className=" text-decoration-none c-link"
+                        href="/one#oneCard"
+                      >
+                        Get Started
                       </Link>
                     </div>
                   </div>

@@ -4,7 +4,11 @@ export default function Contact() {
   return (
     <section className=" ">
       <div className="container contact">
-        <div className="row justify-content-center">
+        <div
+          className="row justify-content-center"
+          data-aos="fade-up"
+          data-aos-delay="200"
+        >
           <div className="col-md-5">
             <div className="card shadow mt-5">
               <div className="card-body c-cbody">
@@ -12,22 +16,22 @@ export default function Contact() {
                 <hr />
 
                 <form>
-                  <div className="mb-2">
+                  <div className="mb-2" data-aos="fade-up" data-aos-delay="100">
                     <label>Names</label>
                     <input type="text" className="form-control shadow-none" />
                   </div>
 
-                  <div className="mb-2">
+                  <div className="mb-2" data-aos="fade-up" data-aos-delay="200">
                     <label>Matric Number</label>
                     <input type="text" className="form-control shadow-none" />
                   </div>
 
-                  <div className="mb-2">
+                  <div className="mb-2" data-aos="fade-up" data-aos-delay="300">
                     <label>Email</label>
                     <input type="email" className="form-control shadow-none" />
                   </div>
 
-                  <div className="d-grid">
+                  <div className="d-grid" data-aos="fade-up" data-aos-delay="400">
                     <button type="submit" className="btn ">
                       <span>Submit</span>
                     </button>

@@ -8,7 +8,7 @@ const Navbar = () => {
     >
       <div className="container">
         <a href="/" className="navbar-brand logo">
-          Student Details
+          Student Records
         </a>
         <button
           className="navbar-toggler shadow-none"

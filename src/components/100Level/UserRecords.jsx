@@ -24,8 +24,8 @@ export default async function UserRecords() {
 
                   <hr />
                   <div className="card-body c-body text-center">
-                    <h4 className="mt-2 ">Total Student</h4>
-                    <p className="leade ">233</p>
+                    <h4>Total Student</h4>
+                    <p>233</p>
                   </div>
                 </div>
               </Link>
@@ -37,8 +37,8 @@ export default async function UserRecords() {
 
                   <hr />
                   <div className="card-body c-body text-center">
-                    <h4 className="mt-2 ">Deffer Student</h4>
-                    <p className="leade ">13</p>
+                    <h4>Deffer Student</h4>
+                    <p>13</p>
                   </div>
                 </div>
               </Link>
@@ -50,8 +50,8 @@ export default async function UserRecords() {
 
                   <hr />
                   <div className="card-body c-body text-center">
-                    <h4 className="mt-2 ">First Class Student</h4>
-                    <p className="leade ">7</p>
+                    <h4>First Class Student</h4>
+                    <p>7</p>
                   </div>
                 </div>
               </Link>
@@ -63,8 +63,8 @@ export default async function UserRecords() {
                 </Link>
                 <hr />
                 <div className="card-body c-body text-center">
-                  <h4 className="mt-2 ">Second Class Student</h4>
-                  <p className="leade ">187</p>
+                  <h4>Second Class Student</h4>
+                  <p>187</p>
                 </div>
               </div>
             </div>
@@ -75,8 +75,8 @@ export default async function UserRecords() {
                 </Link>
                 <hr />
                 <div className="card-body c-body text-center">
-                  <h4 className="mt-2 ">Third Class Student</h4>
-                  <p className="leade ">233</p>
+                  <h4>Third Class Student</h4>
+                  <p>233</p>
                 </div>
               </div>
             </div>
@@ -87,8 +87,8 @@ export default async function UserRecords() {
                 </Link>
                 <hr />
                 <div className="card-body c-body text-center">
-                  <h4 className="mt-2 ">Pass Degree</h4>
-                  <p className="leade ">68</p>
+                  <h4>Pass Degree</h4>
+                  <p>68</p>
                 </div>
               </div>
             </div>
@@ -99,8 +99,8 @@ export default async function UserRecords() {
                 </Link>
                 <hr />
                 <div className="card-body c-body text-center">
-                  <h4 className="mt-2 ">Carry Over Student</h4>
-                  <p className="leade ">30</p>
+                  <h4>Carry Over Student</h4>
+                  <p>30</p>
                 </div>
               </div>
             </div>
@@ -111,8 +111,8 @@ export default async function UserRecords() {
                 </Link>
                 <hr />
                 <div className="card-body c-body text-center">
-                  <h4 className="mt-2 ">Widthrow Student</h4>
-                  <p className="leade ">5</p>
+                  <h4>Widthrow Student</h4>
+                  <p>5</p>
                 </div>
               </div>
             </div>
@@ -123,8 +123,8 @@ export default async function UserRecords() {
                 </Link>
                 <hr />
                 <div className="card-body c-body text-center">
-                  <h4 className="mt-2 ">Mal-Practice</h4>
-                  <p className="leade ">15</p>
+                  <h4>Mal-Practice</h4>
+                  <p>15</p>
                 </div>
               </div>
             </div>
