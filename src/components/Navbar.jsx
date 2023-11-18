@@ -7,11 +7,12 @@ const Navbar = () => {
       data-aos-delay="5000"
     >
       <div className="container">
+        <img src="/images/kasulogo.png" alt="" width={50} height={40} />
         <a href="/" className="navbar-brand logo">
           Student Records
         </a>
         <button
-          className="navbar-toggler shadow-none"
+          className="navbar-toggler border-0 shadow-none"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#main-nav"

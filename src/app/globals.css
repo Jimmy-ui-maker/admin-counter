@@ -196,7 +196,7 @@ body {
 }
 #about .text-border {
   border-left-style: solid;
-  border-color: rgba(130, 127, 127, 0.82);
+  border-color: #013289;
 }
 
 .about .btn-about {
@@ -319,6 +319,7 @@ body {
 }
 #levels p,h2, h4 {
   color: #013289;
+  font-size: 18px;
 }
 
 @media (max-width: 768px) {
@@ -331,6 +332,10 @@ body {
   }
   #levels p,h2, h4 {
     color: #013289;
+    
+  }
+  #levels h4{
+    font-size: 15px;
   }
 }
 

@@ -13,62 +13,106 @@ export default function LevelCard() {
           <p> to see more details about your level</p>
         </div>
 
-        <div className="row g-3 mb-5">
-          <div className="col-6 col-md-3 col-lg-3 mb-4 ">
+        <div className="row g-3 mb-2">
+          <div className="col-6 col-md-3 ">
             <Link className=" text-decoration-none" href="/one">
-              <div className="card" data-aos="fade-up" >
+              <div className="card" data-aos="fade-up">
                 <img src="/images/features.png" className="card-img-top " />
 
                 <hr />
-                <div className="card-body c-body">
-                  <h4 data-aos="fade-up" >100 Level Section</h4>
-                  <p data-aos="fade-up" data-aos-delay="200">Total Student: 233</p>
-                  <h4 data-aos="fade-up" data-aos-delay="200">Level Coordinator</h4>
-                  <p data-aos="fade-up" data-aos-delay="200">Sir Jimmy</p>
+                <div className="card-body ">
+                  <h4 data-aos="fade-up">
+                    {" "}
+                    <strong className="text-uppercase">
+                      100 Level Section{" "}
+                    </strong>
+                  </h4>
+                  <p data-aos="fade-up" data-aos-delay="200">
+                    Total Student: 233
+                  </p>
+                  <p data-aos="fade-up" data-aos-delay="200">
+                    Level Coordinator
+                  </p>
+                  <p data-aos="fade-up" data-aos-delay="200">
+                    Sir Jimmy
+                  </p>
                 </div>
               </div>
             </Link>
           </div>
-          <div className="col-6 col-md-3 col-lg-3 mb-4 ">
-            <div className="card" data-aos="fade-up" >
+          <div className="col-6 col-md-3   ">
+            <div className="card" data-aos="fade-up">
               <Link href="/">
                 <img src="/images/about.jpg" className="card-img-top " />
               </Link>
               <hr />
-              <div className="card-body c-body">
-                <h4 data-aos="fade-up" >200 Level Section</h4>
-                <p data-aos="fade-up" data-aos-delay="200">Total Student: 203</p>
-                <h4 data-aos="fade-up" data-aos-delay="200">Level Coordinator</h4>
-                <p data-aos="fade-up" data-aos-delay="200">Sir Micah</p>
+              <div className="card-body ">
+                <h4 data-aos="fade-up">
+                  {" "}
+                  <strong className="text-uppercase">100 Level Section </strong>
+                </h4>
+                <p data-aos="fade-up" data-aos-delay="200">
+                  Total Student: 233
+                </p>
+                <p data-aos="fade-up" data-aos-delay="200">
+                  Level Coordinator
+                </p>
+                <p data-aos="fade-up" data-aos-delay="200">
+                  Sir Jimmy
+                </p>
               </div>
             </div>
           </div>
-          <div className="col-6 col-md-3 col-lg-3 mb-4 ">
-            <div className="card" data-aos="fade-up" >
-              <Link href="/">
-                <img src="/images/features-2.png" className="card-img-top " />
-              </Link>
-              <hr />
-              <div className="card-body c-body">
-                <h4 data-aos="fade-up" >300 Level Section</h4>
-                <p data-aos="fade-up" data-aos-delay="200">Total Student: 233</p>
-                <h4 data-aos="fade-up" data-aos-delay="200">Level Coordinator</h4>
-                <p data-aos="fade-up" data-aos-delay="200">Emmanuel Okafor</p>
-              </div>
-            </div>
-          </div>
-          <div className="col-6 col-md-3 col-lg-3 mb-4 " >
+          <div className="col-6 col-md-3   ">
             <div className="card" data-aos="fade-up">
-              <Link href="/" >
-                <img src="/images/features-3.png" className="card-img-top " />
+              <Link className=" text-decoration-none" href="/">
+                <img src="/images/features-2.png" className="card-img-top " />
+
+                <hr />
+                <div className="card-body ">
+                  <h4 data-aos="fade-up">
+                    {" "}
+                    <strong className="text-uppercase">
+                      100 Level Section{" "}
+                    </strong>
+                  </h4>
+                  <p data-aos="fade-up" data-aos-delay="200">
+                    Total Student: 233
+                  </p>
+                  <p data-aos="fade-up" data-aos-delay="200">
+                    Level Coordinator
+                  </p>
+                  <p data-aos="fade-up" data-aos-delay="200">
+                    Sir Jimmy
+                  </p>
+                </div>
               </Link>
-              <hr />
-              <div className="card-body c-body">
-                <h4 data-aos="fade-up">400 Level Section</h4>
-                <p data-aos="fade-up" data-aos-delay="200">Total Student: 199</p>
-                <h4 data-aos="fade-up" data-aos-delay="200">Level Coordinator</h4>
-                <p data-aos="fade-up" data-aos-delay="200">Abdullahi Usman</p>
-              </div>
+            </div>
+          </div>
+          <div className="col-6 col-md-3   ">
+            <div className="card" data-aos="fade-up">
+              <Link className=" text-decoration-none" href="/">
+                <img src="/images/features-3.png" className="card-img-top " />
+
+                <hr />
+                <div className="card-body ">
+                  <h4 data-aos="fade-up">
+                    {" "}
+                    <strong className="text-uppercase">
+                      100 Level Section{" "}
+                    </strong>
+                  </h4>
+                  <p data-aos="fade-up" data-aos-delay="200">
+                    Total Student: 233
+                  </p>
+                  <p data-aos="fade-up" data-aos-delay="200">
+                    Level Coordinator
+                  </p>
+                  <p data-aos="fade-up" data-aos-delay="200">
+                    Sir Jimmy
+                  </p>
+                </div>
+              </Link>
             </div>
           </div>
         </div>
