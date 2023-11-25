@@ -20,21 +20,25 @@ export default function HeroPage() {
           <h1>Welcome to Kaduna State University</h1>
           <h2 className=" mt-4">Computer Science Department</h2>
           <h3 className=" mt-2">Student Records</h3>
-          <a href="/levelOne" class="btn-level-one">
-            100
-          </a>
-          <a href="/levelTwo" class="btn-level-two">
-            200
-          </a>
-          <a href="#about" class="btn-get-started scrollto">
-            <i class="bi bi-chevron-double-down"></i>
-          </a>
-          <a href="/levelThree" class="btn-level-three">
-            300
-          </a>
-          <a href="/levelFour" class="btn-level-four">
-            400
-          </a>
+          <div className="row">
+            <div className=" col-lg-12 col-12">
+              <a href="/levelOne" class="btn-level-one">
+                100
+              </a>
+              <a href="/levelTwo" class="btn-level-two">
+                200
+              </a>
+              <a href="#about" class="btn-get-started scrollto">
+                <i class="bi bi-chevron-double-down"></i>
+              </a>
+              <a href="/levelThree" class="btn-level-three">
+                300
+              </a>
+              <a href="/levelFour" class="btn-level-four">
+                400
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </section>

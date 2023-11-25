@@ -156,7 +156,8 @@ hr {
   text-shadow: -1px 0 1px #2f4d5a;
 }
 
-#hero i {
+#hero a,
+i {
   color: #fff;
 }
 #hero h1:hover {
@@ -169,25 +170,40 @@ hr {
   color: #67b0d1;
 }
 
-#hero .btn-get-started {
-  font-size: 30px;
+#hero a {
+  font-size: 20px;
   display: inline-block;
-  padding: 10px 0;
+  padding: 12px 0;
   border-radius: 50px;
   transition: 0.3s ease-in-out;
-  margin: 10px;
-  width: 64px;
-  height: 64px;
+  margin: 8px;
+  width: 60px;
+  height: 60px;
   text-align: center;
   border: 2px solid #fff;
 }
 
-#hero .btn-get-started:hover {
-  padding-top: 8px;
+#hero a:hover {
+  color: #8ec4dd;
   background: rgba(255, 255, 255, 0.15);
 }
 
-/* Route Btn*/
+@media (max-width: 768px) {
+  #hero a {
+    font-size: 18px;
+    display: inline-block;
+    padding: 10px 0;
+    border-radius: 50px;
+    transition: 0.3s ease-in-out;
+    margin: 8px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border: 2px solid #fff;
+  }
+}
+
+/* Route Btn
 #hero .btn-level-one  {
   font-size: 30px;
   display: inline-block;
@@ -243,24 +259,7 @@ hr {
   border: 2px solid #fff;
 }
 
-#hero .btn-level-one:hover {
-  padding-top: 12px;
-  background: rgba(255, 255, 255, 0.15);
-}
-
-#hero .btn-level-two:hover {
-  padding-top: 12px;
-  background: rgba(255, 255, 255, 0.15);
-}
-
-#hero .btn-level-three:hover {
-  padding-top: 12px;
-  background: rgba(255, 255, 255, 0.15);
-}
-#hero .btn-level-four:hover {
-  padding-top: 12px;
-  background: rgba(255, 255, 255, 0.15);
-}
+*/
 
 @media (min-width: 1024px) {
   #hero {
@@ -278,6 +277,10 @@ hr {
     font-size: 18px;
     line-height: 24px;
     margin-bottom: 30px;
+  }
+  #hero h3 {
+    font-size: 25px;
+    line-height: 30px;
   }
 }
 
@@ -453,7 +456,7 @@ p {
   z-index: 1;
 }
 
-.all-cards .card{
+.all-cards .card {
   height: 30vh;
 }
 
@@ -1010,7 +1013,6 @@ p {
   border: 2px solid linear-gradient(#2f4d5a, #a2cfe3);
 }
 
-
 /*  
 #hero-page a {
   position: absolute;
@@ -1028,8 +1030,6 @@ p {
 }
 */
 
-
-
 /*--------------------------------------------------------------
 # 200 Level Section
 --------------------------------------------------------------*/
@@ -1037,48 +1037,11 @@ p {
   width: 100%;
   height: 100vh;
   background: linear-gradient(rgba(55, 142, 181, 0.5), rgba(55, 142, 181, 0.2)),
-    url("/kasu/bg1.png") top center;
+    url("/img/about-bg.jpg") top center;
   background-size: cover;
 }
 
-/* up and down carousel*/
-#levelTwo .carousel-inner .container img {
-  -webkit-animation: upDown 5s infinite;
-  animation: upDown 5s infinite;
-}
-
-@-webkit-keyframes upDown {
-  0% {
-    -webkit-transform: translateY(-45px);
-    transform: translateY(-45px);
-  }
-  50% {
-    -webkit-transform: translateY(45px);
-    transform: translateY(45px);
-  }
-  100% {
-    -webkit-transform: translateY(-45px);
-    transform: translateY(-45px);
-  }
-}
-
-@keyframes upDown {
-  0% {
-    -webkit-transform: translateY(-45px);
-    transform: translateY(-45px);
-  }
-  50% {
-    -webkit-transform: translateY(45px);
-    transform: translateY(45px);
-  }
-  100% {
-    -webkit-transform: translateY(-45px);
-    transform: translateY(-45px);
-  }
-}
-
-
-#levelTwo .carousel-inner .container h1 {
+#levelTwo .topic h1 {
   margin: 0 0 10px 0;
   font-size: 54px;
   font-weight: 700;
@@ -1088,7 +1051,7 @@ p {
   text-shadow: -1px 0 1px #2f4d5a;
 }
 
-#levelTwo .carousel-inner .container h2 {
+#levelTwo .topic h2 {
   color: #fff;
   margin-bottom: 50px;
   font-size: 36px;
@@ -1096,19 +1059,35 @@ p {
   font-weight: 600;
   text-shadow: -1px 0 2px #2f4d5a;
 }
+#levelTwo .topic a {
+  font-size: 20px;
+  color: #7bbad7;
+  background: #fff;
+}
+#levelTwo .topic a:hover {
+  color: #fff;
+  background: #7bbad7;
+}
 
-#levelTwo .carousel-inner .container a {
-  color: #67b0d1;
+#levelTwo .c-card i {
+  border-radius: 5px;
+  font-size: 30px;
+  color: #7bbad7;
+  background: #fff;
 }
 
 
+#levelTwo .card:hover {
+  background: #7bbad7;
+}
+
 @media (max-width: 768px) {
-  #levelTwo .carousel-inner .container h1 {
+  #levelTwo .container h1 {
     font-size: 28px;
     line-height: 36px;
   }
 
-  #levelTwo .carousel-inner .container h2 {
+  #levelTwo .container h2 {
     font-size: 18px;
     line-height: 24px;
     margin-bottom: 30px;

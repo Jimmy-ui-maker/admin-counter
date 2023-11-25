@@ -6,7 +6,7 @@ export default function About() {
     <section id="about" class="about">
       <div class="container">
         <div class="row no-gutters">
-          <h1 className=" text-center">SCS Student Records</h1>
+          <h1 className=" text-center">CSC Student Records</h1>
           <hr />
           <div
             class="content col-xl-5 d-flex align-items-stretch"
