@@ -3,14 +3,20 @@ import React from "react";
 
 export default function NotFound() {
   return (
-    <div className=" container ">
-      <section className="w-100 vh-100 d-flex flex-column justify-content-center align-items-center">
-        <h3> Awwwnnn Oooops...</h3>
+    <section
+      id="not-found"
+      className="w-100 vh-100 d-flex flex-column justify-content-center align-items-center"
+    >
+      <div className="container text-center ">
+        <h3> Oooops... Page not found</h3>
         <h4>You just hit a wrong url.</h4>
         <p>
-          will you like to go back to <Link className=" text-decoration-none text-success" href="/"> Home Page?</Link>
+          will you like to go back to <br />
+          <Link className=" fw-bold mt-4 " href="/">
+            Home Page?
+          </Link>
         </p>
-      </section>
-    </div>
+      </div>
+    </section>
   );
 }

@@ -1,17 +1,21 @@
 import About from "@/components/About";
-import Contact from "@/components/Contact";
-import Faqs from "@/components/Faqs";
 import HeroPage from "@/components/HeroPage";
-import LevelCard from "@/components/LevelCard";
+import ClassReps from "@/components/ClassReps";
+import Coordinator from "@/components/Coordinator";
+import SltOne from "@/components/SltOne";
+import Contact from "@/components/Contact";
 
 export default function Home() {
   return (
     <>
       <HeroPage />
-      <About />
-      <LevelCard />
-      <Faqs />
-      <Contact />
+      <main id="main">
+        <About />
+        <ClassReps />
+        <SltOne />
+        <Coordinator />
+        <Contact />
+      </main>
     </>
   );
 }
