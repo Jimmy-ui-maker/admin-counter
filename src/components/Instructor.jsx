@@ -41,14 +41,14 @@ const Instructor = () => {
 
   const [record, setRecord] = useState([]);
 
-  {/**useEffect(() => {
+  useEffect(() => {
     fetch("/api/get1")
       .then((Response) => Response.json())
       .then((Response) => {
         setRecords(Response);
         setRecord(Response);
       });
-  }, []); */}
+  }, []);
 
   const handleFilter = (event) => {
     const newData = records.filter((row) => {
