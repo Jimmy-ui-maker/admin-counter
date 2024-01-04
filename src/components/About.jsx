@@ -3,51 +3,48 @@ import React from "react";
 
 export default function About() {
   return (
-    <section id="about" class="about">
-      <div class="container">
-        <div class="row no-gutters">
+    <section id="about" className="about">
+      <div className="container">
+        <div className="row no-gutters">
           <h1 className=" text-center">CSC Student Records</h1>
           <hr />
           <div
-            class="content col-xl-5 d-flex align-items-stretch"
+            className="content col-xl-5 d-flex align-items-stretch"
             data-aos="fade-up"
           >
-            <div class="content">
+            <div className="content">
               <h3>Purposes</h3>
               <ul>
                 <li>
-                  <i class="bi bi-chevron-right"></i> to be able to capture the
-                  total number of student in each level.
+                  <i className="bi bi-chevron-double-right"></i> to be able to
+                  capture the total number of student in each level.
                 </li>
                 <li>
-                  <i class="bi bi-chevron-right"></i>
+                  <i className="bi bi-chevron-double-right"></i>
                   to be able to know the current 'active' student in section.
                 </li>
                 <li>
-                  <i class="bi bi-chevron-right"></i>
+                  <i className="bi bi-chevron-double-right"></i>
                   to be able to capture and store defer student.
                 </li>
 
                 <li>
-                  <i class="bi bi-chevron-right"></i>
+                  <i className="bi bi-chevron-double-right"></i>
                   to store any crime commited by the student, as well good
                   conduct.
                 </li>
               </ul>
-              <a href="/" class="about-btn">
-                About us <i class="bx bx-chevron-right"></i>
-              </a>
             </div>
           </div>
-          <div class="col-xl-7 d-flex align-items-stretch">
-            <div class="icon-boxes d-flex flex-column justify-content-center">
-              <div class="row">
+          <div className="col-xl-7 d-flex align-items-stretch">
+            <div className="icon-boxes d-flex flex-column justify-content-center">
+              <div className="row">
                 <div
-                  class="col-md-6 icon-box"
+                  className="col-6 col-md-6 icon-box"
                   data-aos="fade-up"
                   data-aos-delay="100"
                 >
-                  <i class="bi bi-question-lg"></i>
+                  <i className="bi bi-question-circle"></i>
                   <h4>Why choose us</h4>
                   <p>
                     <Link className="btn rounded-2 border-info" href={"/"}>
@@ -56,24 +53,24 @@ export default function About() {
                   </p>
                 </div>
                 <div
-                  class="col-md-6 icon-box"
+                  className="col-6 col-md-6 icon-box"
                   data-aos="fade-up"
                   data-aos-delay="200"
                 >
-                  <i class="bi bi-question-circle-fill"></i>
+                  <i className="bi bi-question-circle"></i>
                   <h4>FAQs</h4>
                   <p>
-                    <Link className="btn rounded-2 border-info" href={"/"}>
+                    <Link className="btn rounded-2 border-info" href={"/faqs"}>
                       Check it here
                     </Link>
                   </p>
                 </div>
                 <div
-                  class="col-md-6 icon-box"
+                  className="col-6 col-md-6 icon-box"
                   data-aos="fade-up"
                   data-aos-delay="300"
                 >
-                  <i class="bi bi-clipboard-plus"></i>
+                  <i className="bi bi-clipboard-plus"></i>
                   <h4>Total Students </h4>
                   <p>
                     <Link className="btn rounded-2 border-info" href={"/"}>
@@ -82,11 +79,11 @@ export default function About() {
                   </p>
                 </div>
                 <div
-                  class="col-md-6 icon-box"
+                  className="col-6 col-md-6 icon-box"
                   data-aos="fade-up"
                   data-aos-delay="400"
                 >
-                  <i class="bi bi-clipboard-plus"></i>
+                  <i className="bi bi-clipboard-plus"></i>
                   <h4>Total student </h4>
                   <p>
                     <Link className="btn rounded-2 border-info" href={"/"}>

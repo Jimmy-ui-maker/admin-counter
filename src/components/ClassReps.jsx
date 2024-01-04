@@ -1,7 +1,9 @@
+import { LevelOne } from "@/models/Tables";
 import Link from "next/link";
 import React from "react";
 
-export default function ClassReps() {
+export default async function ClassReps() {
+  //const countOne = await LevelOne.find().count();
   return (
     <section id="all-cards" class="all-cards">
       <div class="container">
@@ -28,7 +30,7 @@ export default function ClassReps() {
               <p class="description">
                 Sir Jimmy
                 <br />
-                233
+                {countOne}
               </p>
             </div>
           </div>
@@ -39,7 +41,7 @@ export default function ClassReps() {
               data-aos="fade-up"
               data-aos-delay="100"
             >
-              <Link href={''} class="icon">
+              <Link href={""} class="icon">
                 <i class="bi bi-person"></i>
               </Link>
 
@@ -60,7 +62,7 @@ export default function ClassReps() {
               data-aos="fade-up"
               data-aos-delay="200"
             >
-              <Link href={''} class="icon">
+              <Link href={""} class="icon">
                 <i class="bi bi-person"></i>
               </Link>
 
@@ -81,7 +83,7 @@ export default function ClassReps() {
               data-aos="fade-up"
               data-aos-delay="300"
             >
-              <Link href={''} class="icon">
+              <Link href={""} class="icon">
                 <i class="bi bi-person"></i>
               </Link>
 

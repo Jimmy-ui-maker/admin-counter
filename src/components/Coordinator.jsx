@@ -18,13 +18,13 @@ export default function Coordinator() {
             <div class="member" data-aos="fade-up">
               <div class="pic">
                 <img
-                  src="/img/team/favor2.png"
+                  src="/img/team/sirj.jpg"
                   class="img-fluid c-img"
                   alt=""
                 />
               </div>
               <div class="member-info">
-                <h4>Joel Vera</h4>
+                <h4>Bala Jimmy Yakubu</h4>
                 <span>100 Level Coordinator</span>
                 <div class="address">
                   <a href="">Office Address: 001 CSC Department</a>
@@ -51,10 +51,10 @@ export default function Coordinator() {
           <div class="col-12 col-lg-3 col-md-6">
             <div class="member" data-aos="fade-up" data-aos-delay="300">
               <div class="pic">
-                <img src="/img/team/amari.png" class="img-fluid c-img" alt="" />
+                <img src="/img/team/loved.jpg" class="img-fluid c-img" alt="" />
               </div>
               <div class="member-info">
-                <h4>Amari Abu</h4>
+                <h4>Favour Daniel</h4>
                 <span>300 Level Coordinator</span>
                 <div class="address">
                   <a href="">Office Address: 003 CSC Department</a>
