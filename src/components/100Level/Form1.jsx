@@ -26,7 +26,7 @@ const Form1 = () => {
     } catch (error) {
       console.log(error);
     }
-    redirect("/levelOne/allTable");
+    redirect("/admOne");
   }
 
   return (
