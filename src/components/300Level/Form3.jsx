@@ -2,10 +2,10 @@ import { newStudent } from "@/app/servers/actions3";
 
 export default function Form3() {
   return (
-    <section className="section-bg" id="admin">
+    <section className="section-bg" id="form3">
       <div className="container">
         <div class="section-title text-center">
-          <p className="mb-2 h4">300 Level Entry Page</p>
+          <p className="mb-2">300 Level Entry Page</p>
           <h2>Welcome Back</h2>
           <hr className="mb-0" />
         </div>

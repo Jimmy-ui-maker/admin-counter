@@ -1,5 +1,6 @@
 
 import { LevelTwo } from "@/models/Tables";
+import { revalidatePath } from "next/cache";
 import Link from "next/link";
 import { redirect } from "next/navigation";
 
@@ -21,6 +22,7 @@ const Form2 = () => {
     try {
       let newStudent = new LevelTwo({ fullnames, matric, level, phone, desc });
       await newStudent.save();
+      revalidatePath("/levelTwo/allTable")
     } catch (error) {
       console.log(error);
     }

@@ -7,6 +7,7 @@ import Link from "next/link";
 
 export default function Dashboard() {
   const { data: session } = useSession();
+  
   return (
     <section
       id="admin"

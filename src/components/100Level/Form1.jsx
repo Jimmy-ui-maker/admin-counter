@@ -1,4 +1,5 @@
 import { LevelOne } from "@/models/Tables";
+import { revalidatePath } from "next/cache";
 import Link from "next/link";
 import { redirect } from "next/navigation";
 
@@ -21,6 +22,7 @@ const Form1 = () => {
     try {
       let newStudent = new LevelOne({ fullnames, matric, level, phone, desc });
       await newStudent.save();
+      revalidatePath('/levelOne/allTable')
     } catch (error) {
       console.log(error);
     }
@@ -30,7 +32,7 @@ const Form1 = () => {
   return (
     <section className=" add-one">
       <div className="add-one container">
-        <h1 className="text-center">100 Level Students Entry Page</h1>
+        <h1 className="text-center">100 Level Entry Page</h1>
         
         <form action={newStudent} className="row c-form g-4 mt-2">
           <div className="col-md-6 col-12">
