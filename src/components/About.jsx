@@ -9,10 +9,10 @@ export default function About() {
           <h1 className=" text-center">CSC Student Records</h1>
           <hr />
           <div
-            className="content col-xl-5 d-flex align-items-stretch"
+            className="cnt col-xl-5 d-flex align-items-stretch"
             data-aos="fade-up"
           >
-            <div className="content">
+            <div className="cnt">
               <h3>Purposes</h3>
               <ul>
                 <li>

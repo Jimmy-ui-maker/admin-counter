@@ -1,4 +1,4 @@
-export default async function LevelThree() {
+export default async function CoverPage() {
   return (
     <section id="levelThree" class="levelThree d-flex align-items-center">
       <div class="container">

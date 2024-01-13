@@ -42,7 +42,7 @@ export default async function OneView() {
                   <p>{one.phone}</p>
                   <p>{one.desc}</p>
                   <div class="social">
-                    <Link className=" text-dark" href={`/edit/${one._id}`}>
+                    <Link className=" text-dark" href={`/edit1/${one._id}`}>
                       <i class="bi bi-pen"></i>
                     </Link>
 

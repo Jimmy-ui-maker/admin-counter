@@ -7,12 +7,9 @@ import Link from "next/link";
 
 export default function Dashboard() {
   const { data: session } = useSession();
-  
+
   return (
-    <section
-      id="admin"
-      className="admin-cards w-100 vh-100 d-flex flex-column justify-content-center align-items-center"
-    >
+    <section className="admin-cards admin w-100 vh-100 d-flex flex-column justify-content-center align-items-center">
       <div className="container">
         <div className="  row d-flex justify-content-center align-items-center text-center">
           <div className="topic col-lg-12 col-12">
@@ -84,7 +81,7 @@ export default function Dashboard() {
                 data-aos="fade-up"
                 data-aos-delay="300"
               >
-                <Link href={""} class="icon">
+                <Link href={"admFour"} class="icon">
                   <i class="bi bi-person"></i>
                 </Link>
 

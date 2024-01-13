@@ -18,7 +18,7 @@ export default function HeroPage() {
           className=" pb-4"
         />
         <div class="btns" data-aos="fade-up" data-aos-delay="300">
-          <h3 className=" my-2">Student Records</h3>
+          <h3 className=" my-2">Student Counter</h3>
           <div className="row">
             <div className=" a-route col-lg-12 col-12">
               <a href="#acts1" className="btn-level-one">

@@ -16,7 +16,7 @@ export default function Navbar() {
           alt=""
         />
         <a href="/" className="navbar-brand fw-bolder text-uppercase">
-          Students Records
+          Students Counter
         </a>
         <button
           className="navbar-toggler shadow-none"

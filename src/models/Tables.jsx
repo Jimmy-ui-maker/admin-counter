@@ -84,6 +84,33 @@ const levelThreeSchema = new Schema({
   },
 });
 
+const levelFourSchema = new Schema({
+  fullnames: {
+    type: String,
+    required: true,
+  },
+  matric: {
+    type: String,
+    required: true,
+  },
+  level: {
+    type: String,
+    required: true,
+  },
+  phone: {
+    type: String,
+    required: true,
+  },
+  desc: {
+    type: String,
+    required: true,
+  },
+  date: {
+    type: Date,
+    default: Date.now,
+  },
+});
+
 const userSchema = new Schema(
   {
     name: {
@@ -108,5 +135,6 @@ export default User;
 export const LevelOne = models.LevelOne || model("LevelOne", levelOneSchema);
 export const LevelTwo = models.LevelTwo || model("LevelTwo", levelTwoSchema);
 export const LevelThree = models.LevelThree || model("LevelThree", levelThreeSchema);
+export const LevelFour = models.LevelFour || model("LevelFour", levelFourSchema);
 
 //export const Product = models.Product || model("Product", productSchema);

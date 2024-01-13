@@ -8,7 +8,7 @@ export default function Footer() {
         <div class="copyright">
           &copy; Copyright
           <strong>
-            <span> Student Records</span>
+            <span> Student Counter</span>
           </strong>
           . All Rights Reserved
         </div>
