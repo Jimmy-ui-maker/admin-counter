@@ -21,21 +21,21 @@ export default function HeroPage() {
           <h3 className=" my-2">Student Counter</h3>
           <div className="row">
             <div className=" a-route col-lg-12 col-12">
-              <a href="#acts1" className="btn-level-one">
+              <Link href="#acts1" className="btn-level-one">
                 100
-              </a>
-              <a href="#acts2" className="btn-level-two">
+              </Link>
+              <Link href="#acts2" className="btn-level-two">
                 200
-              </a>
-              <a href="#about" className="btn-get-started scrollto">
+              </Link>
+              <Link href="#about" className="btn-get-started scrollto">
                 <i className="bi bi-chevron-double-down"></i>
-              </a>
-              <a href="#acts3" className="btn-level-three">
+              </Link>
+              <Link href="#acts3" className="btn-level-three">
                 300
-              </a>
-              <a href="#acts4" className="btn-level-four">
+              </Link>
+              <Link href="#acts4" className="btn-level-four">
                 400
-              </a>
+              </Link>
             </div>
            
             <div className=" d-flex justify-content-center">

@@ -38,7 +38,7 @@ export default function Dashboard() {
                 </Link>
 
                 <h4 class="title">
-                  <a href="">100 Level</a>
+                  <Link href="">100 Level</Link>
                 </h4>
               </div>
             </div>
@@ -54,7 +54,7 @@ export default function Dashboard() {
                 </Link>
 
                 <h4 class="title">
-                  <a href="">200 Level</a>
+                  <Link href="">200 Level</Link>
                 </h4>
               </div>
             </div>
@@ -70,7 +70,7 @@ export default function Dashboard() {
                 </Link>
 
                 <h4 class="title">
-                  <a href="">300 Level</a>
+                  <Link href="">300 Level</Link>
                 </h4>
               </div>
             </div>
@@ -86,7 +86,7 @@ export default function Dashboard() {
                 </Link>
 
                 <h4 class="title">
-                  <a href="">400 Level</a>
+                  <Link href="">400 Level</Link>
                 </h4>
               </div>
             </div>
@@ -101,19 +101,19 @@ export default function Dashboard() {
               </button>
             </div>
             <div className=" col-lg-12 col-12 c-up">
-              <a href="/levelOne" class="btn">
+              <Link href="/levelOne" class="btn">
                 <i class="bi bi-chevron-left"></i>
-              </a>
-              <a href="/levelTwo" class="btn">
+              </Link>
+              <Link href="/levelTwo" class="btn">
                 <i class="bi bi-chevron-left"></i>
-              </a>
+              </Link>
 
-              <a href="/levelThree" class="btn">
+              <Link href="/levelThree" class="btn">
                 <i class="bi bi-chevron-right"></i>
-              </a>
-              <a href="/levelFour" class="btn">
+              </Link>
+              <Link href="/levelFour" class="btn">
                 <i class="bi bi-chevron-right"></i>
-              </a>
+              </Link>
             </div>
           </div>
         </div>
