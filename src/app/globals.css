@@ -269,7 +269,7 @@ section {
 --------------------------------------------------------------*/
 #hero {
   background: linear-gradient(rgba(55, 142, 181, 0.5), rgba(55, 142, 181, 0.2)),
-    url("/img/record.jpg") top center;
+    url("/kasu/one-k.jpg") top center;
   background-blend-mode: multiply;
   background-position: center;
   background-size: cover;
@@ -352,6 +352,10 @@ i {
 #hero a:hover {
   color: #8ec4dd;
   background: rgba(255, 255, 255, 0.15);
+}
+
+#hero h3:hover {
+  color: #52869d;
 }
 
 @media (max-width: 768px) {
@@ -594,6 +598,12 @@ p {
 }
 
 @media (max-width: 768px) {
+  .about .row h1 {
+    font-weight: 700;
+    font-size: 24px;
+    color: #52869d;
+    margin-bottom: 30px;
+  }
   .about {
     text-align: center;
   }
@@ -1560,6 +1570,13 @@ p {
 }
 #footer:hover {
   background: #52869d;
+}
+#footer .scroll-back{
+  background: var(--softColor);
+  border-radius: 50px;
+}
+#footer .scroll-back i{
+  font-size: 25px;
 }
 
 @media (max-width: 575px) {

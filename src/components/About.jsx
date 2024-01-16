@@ -6,7 +6,7 @@ export default function About() {
     <section id="about" className="about">
       <div className="container">
         <div className="row no-gutters">
-          <h1 className=" text-center">CSC Student Records</h1>
+          <h1 className=" text-center">Computer Science Student Counter, KASU</h1>
           <hr />
           <div
             className="cnt col-xl-5 d-flex align-items-stretch"
@@ -16,21 +16,21 @@ export default function About() {
               <h3>Purposes</h3>
               <ul>
                 <li>
-                  <i className="bi bi-chevron-double-right"></i> to be able to
+                  <i className="bi bi-chevron-double-right"></i> To be able to
                   capture the total number of student in each level.
                 </li>
                 <li>
                   <i className="bi bi-chevron-double-right"></i>
-                  to be able to know the current 'active' student in section.
+                  To be able to know the current 'active' student in section.
                 </li>
                 <li>
                   <i className="bi bi-chevron-double-right"></i>
-                  to be able to capture and store defer student.
+                  To be able to capture and store defer student.
                 </li>
 
                 <li>
                   <i className="bi bi-chevron-double-right"></i>
-                  to store any crime commited by the student, as well good
+                  To store any crime commited by the student, as well good
                   conduct.
                 </li>
               </ul>

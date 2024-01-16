@@ -9,9 +9,9 @@ export default function Navbar() {
     >
       <div className="container">
         <img
-          src="/kasu/one-k.jpg"
+          src="/kasu/kasulogo.png"
           className=" rounded-2"
-          width={30}
+          width={40}
           height={30}
           alt=""
         />
@@ -36,22 +36,22 @@ export default function Navbar() {
         >
           <ul className="navbar-nav">
             <li className="nav-item">
-              <a href="" className="nav-link fw-bold">
+              <a href="/levelOne" className="nav-link fw-bold">
                 100 Level
               </a>
             </li>
             <li className="nav-item">
-              <a href="" className="nav-link fw-bold">
+              <a href="/levelTwo" className="nav-link fw-bold">
                 200 Level
               </a>
             </li>
             <li className="nav-item">
-              <a href="" className="nav-link fw-bold">
+              <a href="/levelThree" className="nav-link fw-bold">
                 300 Level
               </a>
             </li>
             <li className="nav-item">
-              <a href="" className="nav-link fw-bold">
+              <a href="/levelFour" className="nav-link fw-bold">
                 400 Level
               </a>
             </li>

@@ -1,4 +1,4 @@
-import { LevelOne, LevelThree, LevelTwo } from "@/models/Tables";
+import { LevelFour, LevelOne, LevelThree, LevelTwo } from "@/models/Tables";
 import Link from "next/link";
 
 export default async function page() {
@@ -6,8 +6,9 @@ export default async function page() {
   const count1 = await LevelOne.find().count();
   const count2 = await LevelTwo.find().count();
   const count3 = await LevelThree.find().count();
+  const count4 = await LevelFour.find().count();
 
-  const agrg = count1 + count2 + count3;
+  const agrg = count1 + count2 + count3 + count4;
 
   return (
     <>

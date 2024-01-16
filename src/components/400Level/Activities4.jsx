@@ -13,7 +13,7 @@ export default async function Activities4() {
           </h2>
           <hr />
           <p data-aos="fade-up" data-aos-delay="200">
-            Here are the list of all possible activities in 200 Level.
+            Here are the list of all possible activities in 400 Level.
             <br />
             Click and see for yourself
           </p>
