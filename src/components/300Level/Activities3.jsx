@@ -22,7 +22,7 @@ export default async function Activities3() {
         <div class="row g-4">
           <div className="col-6 col-lg-3 text-lg-start text-center ">
             <div className="card p-3 icon-box" data-aos="fade-up">
-              <Link href={"/levelTwo/allTable"} class="icon ">
+              <Link href={"/levelThree/allTable"} class="icon ">
                 <i class="bi bi-patch-plus"></i>
               </Link>
 
