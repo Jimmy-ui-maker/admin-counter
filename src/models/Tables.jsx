@@ -1,7 +1,6 @@
 import mongoose, { Schema, model, models } from "mongoose";
 
 mongoose.connect(process.env.MONGODB_URL);
-mongoose.Promise = global.Promise;
 
 const levelOneSchema = new Schema({
   fullnames: {
