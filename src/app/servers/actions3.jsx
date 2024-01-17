@@ -24,5 +24,5 @@ export async function newStudent(formData) {
   } catch (error) {
     console.log(error);
   }
-  redirect("/levelThree/allTable");
+  redirect("/admThree");
 }
