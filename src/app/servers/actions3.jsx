@@ -20,7 +20,7 @@ export async function newStudent(formData) {
   try {
     let newStudent = new LevelThree({ fullnames, matric, level, phone, desc });
     await newStudent.save();
-    revalidatePath("/levelThree/allTable");
+    revalidatePath("/admThree");
   } catch (error) {
     console.log(error);
   }

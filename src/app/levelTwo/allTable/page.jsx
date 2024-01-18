@@ -5,10 +5,10 @@ import React from "react";
 
 export default async function page() {
   const data = await LevelTwo.find();
-  const count = await LevelTwo.find().count();
-  const count1 = await LevelOne.find().count();
-  const count3 = await LevelThree.find().count();
-  const count4 = await LevelFour.find().count();
+  const count = await LevelTwo.countDocuments();
+  const count1 = await LevelOne.countDocuments();
+  const count3 = await LevelThree.countDocuments();
+  const count4 = await LevelFour.countDocuments();
 
   const agr = count + count1 + count3 + count4;
   

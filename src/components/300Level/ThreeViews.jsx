@@ -4,7 +4,7 @@ import DeleteBtn3 from "./DeleteBtn3";
 
 export default async function ThreeViews() {
   const levelThree = await LevelThree.find();
-  const count = await LevelThree.find().count();
+  const count = await LevelThree.countDocuments();
   return (
     <section id="adminView" class="adminView section-bg">
       <div class="container" data-aos="fade-up">

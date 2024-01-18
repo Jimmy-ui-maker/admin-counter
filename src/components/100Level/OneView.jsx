@@ -5,7 +5,7 @@ import DeleteBtn from "./DeleteBtn";
 
 export default async function OneView() {
   const levelOne = await LevelOne.find();
-  const count = await LevelOne.find().count();
+  const count = await LevelOne.countDocuments();
   return (
     <section id="adminView" class="adminView section-bg">
       <div class="container" data-aos="fade-up">

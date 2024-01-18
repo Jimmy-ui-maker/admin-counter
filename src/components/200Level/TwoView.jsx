@@ -5,7 +5,7 @@ import DeleteBtn2 from "./DeleteBtn2";
 
 export default async function TwoView() {
   const levelTwo = await LevelTwo.find();
-  const count = await LevelTwo.find().count();
+  const count = await LevelTwo.countDocuments();
   return (
     <section id="adminView" class="adminView section-bg">
       <div class="container" data-aos="fade-up">

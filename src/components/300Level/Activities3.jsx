@@ -3,7 +3,7 @@ import Link from "next/link";
 import React from "react";
 
 export default async function Activities3() {
-  const allStudents = await LevelThree.find().count();
+  const allStudents = await LevelThree.countDocuments();
   return (
     <section id="all-cards " class="all-cards ">
       <div id="twoCards" class="container">

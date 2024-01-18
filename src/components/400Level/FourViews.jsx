@@ -6,7 +6,7 @@ import { getManyFour } from "./FetchData";
 
 export default async function FourViews() {
   const levelFour = await getManyFour();
-  const count = await LevelFour.find().count();
+  const count = await LevelFour.countDocuments();
   return (
     <section id="adminView" class="adminView section-bg">
       <div class="container" data-aos="fade-up">

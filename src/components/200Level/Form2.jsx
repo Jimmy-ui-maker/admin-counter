@@ -22,7 +22,7 @@ const Form2 = () => {
     try {
       let newStudent = new LevelTwo({ fullnames, matric, level, phone, desc });
       await newStudent.save();
-      revalidatePath("/levelTwo/allTable")
+      revalidatePath("/admTwo")
     } catch (error) {
       console.log(error);
     }

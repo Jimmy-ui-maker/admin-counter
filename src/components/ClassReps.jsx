@@ -3,7 +3,7 @@ import Link from "next/link";
 import React from "react";
 
 export default async function ClassReps() {
-  const countOne = await LevelOne.find().count();
+  const countOne = await LevelOne.countDocuments();
   return (
     <section id="all-cards" class="all-cards">
       <div class="container">
